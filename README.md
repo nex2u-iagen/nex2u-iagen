@@ -39,12 +39,6 @@ Aqui estão as linguagens, frameworks e softwares que utilizo no dia a dia para 
 
 ---
 
-### 📊 Estatísticas do Desenvolvedor
-![Estatísticas do GitHub](https://vercel.app)
-![Linguagens mais usadas](https://vercel.app)
-
----
-
 ### 🤝 Conecte-se Comigo
 Estou sempre aberto a discussões sobre arquitetura de agentes de IA, parcerias B2B e transformação digital.
 
