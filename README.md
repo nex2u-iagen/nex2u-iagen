@@ -1,47 +1,52 @@
-# Olá! Bem-vindo à nex2u 👋
+# Olá! Bem-vindo ao Hub Técnico da nex2u 👋
 
-[![LinkedIn Eliezer Henrique](https://shields.io)](https://linkedin.com)
-[![Website nex2u](https://shields.io)](https://nex2u.ia.br)
-
----
-
-### 🧬 Sobre Mim & nex2u
-Olá, eu sou o **Eliezer Henrique**, Engenheiro, Arquiteto de Agentes de IA e fundador da **nex2u**. Nosso propósito é atuar como um **Hub de Inteligência Artificial Generativa focado em PMEs**, construindo soluções que eliminam tarefas repetitivas, otimizam gargalos operacionais e trazem eficiência real para o ecossistema de negócios.
-
-* ⚙️ **Especialidade:** Mapeamento de processos de negócios, arquitetura de LLMs e criação de agentes autônomos.
-* 🚀 **Abordagem:** Conectar a robustez do desenvolvimento técnico com a praticidade que pequenos e médios negócios precisam para crescer.
+🌐 **Website:** [nex2u.ia.br](https://nex2u.ia.br) | 💼 **LinkedIn do Fundador:** [Eliezer Henrique](https://linkedin.com) | 📧 **Contato Comercial:** contato@nex2u.ia.br
 
 ---
 
-### 🛠️ Tecnologias & Aplicações (Stack Tecnológico)
-Aqui estão as linguagens, frameworks e softwares que utilizo no dia a dia para dar vida aos projetos de IA:
+### 🚀 Projetos em Destaque (Portfólio Técnico & Pesquisa)
+A melhor forma de avaliar nossa engenharia é analisando nosso código vivo. Explore nossos ecossistemas públicos ativos:
 
-#### 🤖 Inteligência Artificial & LLMs
-![OpenAI](https://shields.io)
-![Anthropic](https://shields.io)
-![LangChain](https://shields.io)
+#### 🤖 [chatRAG — Sistema de Inteligência Documental Avançado](https://github.com)
+* **O que é:** Um ecossistema completo de *Retrieval-Augmented Generation* (RAG) corporativo com arquitetura modular, desenvolvido nativamente em **Python 3.12+**.
+* **Diferenciais Técnicos:**
+  * **Agente Loop Inteligente (`agent_loop.py`):** Ciclo autônomo ReAct que analisa, reformula e expande buscas dinamicamente até atingir o grounding ideal.
+  * **Segurança Avançada (`guardrails.py`):** Proteção dupla com *Input Guard* (anti-jailbreak) e *Output Guard* (verificação de alucinações).
+  * **Failover de Modelos (`motor_llm_free.py`):** Sistema resiliente conectado a múltiplos provedores de LLM (Gemini, Groq, OpenRouter, DeepSeek) com redundância automática.
+* 🔗 👉 **[Clique aqui para abrir o repositório do chatRAG](https://github.com)**
 
-#### 💻 Linguagens & Desenvolvimento Backend
-![Python](https://shields.io)
-![TypeScript](https://shields.io)
-![FastAPI](https://shields.io)
-![JavaScript](https://shields.io)
-
-#### ⚙️ Automação de Processos & No-Code/Low-Code
-![n8n](https://shields.io)
-![Make.com](https://shields.io)
-![Notion](https://shields.io)
-
-#### ☁️ Infraestrutura & Ferramentas
-![Docker](https://shields.io)
-![Git](https://shields.io)
-![PostgreSQL](https://shields.io)
+#### 🧠 [agent_skill — Arquitetura de Agentes de IA](https://github.com)
+* **O que é:** Base estrutural para arquitetura de agentes baseados em habilidades (*agent skill*), desenvolvida como parte de um trabalho acadêmico para a **UFG** (Universidade Federal de Goiás) na matéria de **e-prompt**.
+* **Diferenciais Técnicos:**
+  * **Abordagem Híbrida:** Construído majoritariamente em **TypeScript (84%)** aliado a scripts em **Python**, demonstrando versatilidade em microsserviços e tipagem estrita para IA.
+  * **Modularidade:** Estruturação avançada de prompts complexos, versionamento de habilidades e testes de comportamento para agentes autônomos.
+* 🔗 👉 **[Clique aqui para abrir o repositório do agent_skill](https://github.com)**
 
 ---
 
-### 🤝 Conecte-se Comigo
-Estou sempre aberto a discussões sobre arquitetura de agentes de IA, parcerias B2B e transformação digital.
+### 🧬 Quem Somos & Engenharia de Soluções
+Liderada por **Eliezer Henrique** (Engenheiro e Arquiteto de Agentes de IA), a **nex2u** opera como um **Hub de Inteligência Artificial Generativa focado em PMEs**. Unimos o rigor da pesquisa acadêmica à engenharia prática para eliminar gargalos e automatizar processos complexos de negócios.
 
-* 💼 **LinkedIn Pessoal:** [in/eliezerhenrique](https://linkedin.com)
-* 🌐 **Site da Consultoria:** [nex2u.ia.br](https://nex2u.ia.br)
-* 📧 **E-mail de Contato:** contato@nex2u.ia.br
+* 🎯 **Orquestração Multiagente:** Modelagem e desenvolvimento de pipelines de agentes especializados focados em automação de backoffice e esteiras de dados.
+* 📂 **Bases de Conhecimento Seguras:** Arquitetura de bancos de dados vetoriais isolados para conexão estável de dados corporativos confidenciais com modelos de linguagem.
+* 🛠️ **Integração de Ecossistemas:** Acoplamento de IA avançada às ferramentas comerciais já utilizadas no seu dia a dia (CRMs, ERPs e Workspaces) via APIs robustas e microsserviços.
+
+---
+
+### 🛠️ Nosso Stack Tecnológico Dominante
+
+| Camada de IA & Orquestração | Desenvolvimento Backend | Automação & Workflows | Infraestrutura & Bancos |
+| :--- | :--- | :--- | :--- |
+| OpenAI API / Anthropic Claude | Python 3.12+ | n8n Enterprise / Cloud | Docker Containers |
+| LangChain / LlamaIndex | TypeScript (Strict) | Make.com (Integromat) | ChromaDB (Vector) |
+| Engenharia de Prompts (CoT) | FastAPI | Notion Workspaces | SQLite & PostgreSQL |
+| Guardrails Dinâmicos | JavaScript | Webhooks & Filas | Git Versioning & Jest |
+
+---
+
+### 🤝 Conecte-se com a nex2u
+Se você busca otimizar a sua operação, extrair inteligência dos seus documentos com segurança ou firmar parcerias B2B:
+
+1. 🌐 **Visite nosso Hub:** [nex2u.ia.br](https://nex2u.ia.br)
+2. 📉 **Desenhe sua Estratégia:** Agende um mapeamento de processos diretamente com o [Eliezer Henrique no LinkedIn](https://linkedin.com).
+3. 📧 **E-mail Corporativo:** contato@nex2u.ia.br
